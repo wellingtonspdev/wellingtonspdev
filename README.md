@@ -16,6 +16,7 @@ Estou no **3º semestre de Desenvolvimento de Software Multiplataforma na FATEC*
 Este projeto de IC foi apresentado nos simpósios **27º SICT - FATEC-SP** e **VII SICT – CPS/CNPq**.
 
 📘 Foco atual: **Algoritmos de Busca, Análise de Dados e Modelagem de Banco de Dados Relacional**.
+
 🎮 No tempo livre: gosto de ir à academia, jogar futebol/basquete, cozinhar e assistir séries.
 
 ---
