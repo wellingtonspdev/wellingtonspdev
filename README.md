@@ -11,7 +11,7 @@
 
 Sou um desenvolvedor focado em construir soluções eficientes, com experiência prática em projetos **full-stack (React, FastAPI e MySQL)**.
 
-Estou no **3º semestre de Desenvolvimento de Software Multiplataforma na FATEC**, onde também participo ativamente de um projeto de **Iniciação Científica**. Meu foco é a análise de dados (metodologia Speckle), modelagem de banco de dados relacional e a criação de algoritmos de busca inteligente (como o *Greedy Best-First Search*).
+Estou no **4º semestre de Desenvolvimento de Software Multiplataforma na FATEC**, onde também participo ativamente de um projeto de **Iniciação Científica**. Meu foco é a análise de dados (metodologia Speckle), modelagem de banco de dados relacional e a criação de algoritmos de busca inteligente (como o *Greedy Best-First Search*).
 
 Este projeto de IC foi apresentado nos simpósios **27º SICT - FATEC-SP** e **VII SICT – CPS/CNPq**.
 
