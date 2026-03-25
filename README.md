@@ -1,83 +1,145 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Wellington%20Siqueira%20Porto%20🚀&fontColor=fff&fontSize=40&fontAlignY=35)
-
-### 👋 Olá, eu sou o Wellington Siqueira Porto
-
-> 💻 Estudante de **Desenvolvimento de Software Multiplataforma** apaixonado por tecnologia e resolução de problemas.
-> 📍 Guarulhos, Brasil | 🎯 Buscando uma oportunidade de estágio para aplicar meus conhecimentos e contribuir com a equipe.
-
----
-
-### 🧭 Sobre mim
-
-Sou um desenvolvedor focado em construir soluções eficientes, com experiência prática em projetos **full-stack (React, FastAPI e MySQL)**.
-
-Estou no **4º semestre de Desenvolvimento de Software Multiplataforma na FATEC**, onde também participo ativamente de um projeto de **Iniciação Científica**. Meu foco é a análise de dados (metodologia Speckle), modelagem de banco de dados relacional e a criação de algoritmos de busca inteligente (como o *Greedy Best-First Search*).
-
-Este projeto de IC foi apresentado nos simpósios **27º SICT - FATEC-SP** e **VII SICT – CPS/CNPq**.
-
-📘 Foco atual: **Algoritmos de Busca, Análise de Dados e Modelagem de Banco de Dados Relacional**.
-
-🎮 No tempo livre: gosto de ir à academia, jogar futebol/basquete, cozinhar e assistir séries.
-
----
-
-### 🧰 Tecnologias e Ferramentas
-
-#### 💡 Frontend
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-#### ⚙️ Backend
-![Python](https://img.shields.io/badge/Python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-109989?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
-#### 🧱 Banco de Dados
-![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C.svg?style=for-the-badge&logo=sql&logoColor=white)
-
-#### 🛠️ Ferramentas e Outros
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
-
----
-
-### 📊 Estatísticas do GitHub
-
+<!-- HEADER ANIMADO E DINÂMICO (DARK/LIGHT MODE) -->
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=wellingtonspdev&theme=tokyonight&hide_border=true" width="400px" alt="Wellington's GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api?username=wellingtonspdev&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" width="400px" alt="Wellington's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wellingtonspdev&theme=tokyonight&show_icons=true&hide_border=true&layout=compact" width="280px" alt="Wellington's Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast" alt="Typing SVG">
+  </picture>
 </div>
 
----
-
-### 🤝 Vamos nos conectar!
-
-<div align="left">
+<!-- LINKS SOCIAIS MINIMALISTAS -->
+<div align="center">
+  <br />
   <a href="https://www.linkedin.com/in/wellingtonsp-dev" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/-LinkedIn-black?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
+  <a href="https://github.com/wellingtonspdev" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
   <a href="mailto:wellingtonsp.dev@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/-E--mail-black?style=flat&logo=gmail&logoColor=white" alt="E-mail" />
   </a>
+  &nbsp;
+  <a href="https://wellingtonspdev.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/-Portfolio-black?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <br />
+  <br />
 </div>
 
 ---
 
-### 💬 Frase que me inspira
-> *“Omnes in proposito...”*
+## ✦ Sobre Mim
+
+> **Engenharia de Stakeholders & Soluções Centradas no Usuário**
+
+Graduando em Engenharia de Software (FATEC) e Pesquisador de IA (CNPq), combinando rigor acadêmico com 5+ anos de experiência prévia em Customer Experience (Varejo). Essa trajetória me garante forte "Engenharia de Stakeholders" e um foco inabalável em arquitetar soluções que resolvem dores reais de negócio.
+
+Atualmente, minha atuação técnica está concentrada nos pilares de:
+- **Inteligência Artificial (Applied AI):** Implementação de arquiteturas RAG (Local/Cloud) e IA Semântica isolada.
+- **Backend & Integrações:** Construção de sistemas distribuídos resilientes utilizando Webhooks e padrões como *Transactional Outbox*.
+- **Cloud FinOps:** Design de infraestrutura com foco absoluto em *Zero OpEx* e *Unit Economics* escaláveis.
+
+<br />
+
+## ✦ Tech Stack Principal
+
+> Ferramental consolidado para construção de sistemas distribuídos e IAs aplicadas.
+
+| Core & Runtimes | Data & Messaging | Infra & Cloud | Frontend & UI |
+| :---: | :---: | :---: | :---: |
+| <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,nodejs,ts&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,redis&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react&theme=dark" /></a> |
+
+<br />
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=120&section=footer)
+## ✦ Cases de Arquitetura (System Design / Private Repos)
+
+Abaixo estão arquiteturas que projetei e implementei em cenários de alta complexidade de negócio e integrações críticas.
+
+### 1. WSP Finance (SaaS B2B2C)
+Plataforma financeira desenhada com foco em auditoria automatizada e otimização agressiva de custos operacionais.
+- **Linter Fiscal:** Motor de IA Semântica isolada utilizando Google Vertex AI para análise e validação de regras de negócio em documentos fiscais.
+- **Infraestrutura Zero OpEx:** Armazenamento em larga escala de notas fiscais utilizando Cloudflare R2, eliminando completamente as taxas de egresso tradicionais.
+
+### 2. Ecossistema VIVA (HealthTech)
+Ecossistema de saúde focado em processamento assíncrono de alto volume e inferência de dados sensíveis. Construído com NestJS.
+- **Stack de Alta Performance:** Orquestração de filas com BullMQ, caching e *rate-limiting* via Redis.
+- **RAG Local:** Implementação de Retrieval-Augmented Generation *on-premise* utilizando \`sqlite-vec\` para garantia de privacidade de dados médicos (*Zero-Trust*).
+
+**Padrão de Resiliência: Transactional Outbox**
+Implementado para garantir consistência eventual em integrações de sistemas legados de clínicas, onde a estabilidade da rede não é garantida:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Client as Client Request
+    participant API as VIVA Core (NestJS)
+    participant DB as PostgreSQL (Outbox)
+    participant Worker as Outbox Poller
+    participant Queue as BullMQ / Redis
+
+    Client->>API: POST /paciente/prontuario
+    activate API
+    API->>DB: BEGIN TRANSACTION
+    API->>DB: INSERT INTO prontuarios (dados)
+    API->>DB: INSERT INTO outbox_events (evento_sync_clinica)
+    DB-->>API: COMMIT
+    API-->>Client: 201 Created (ACK)
+    deactivate API
+
+    loop Every 2s
+        Worker->>DB: SELECT * FROM outbox_events WHERE status = 'PENDING'
+        activate Worker
+        DB-->>Worker: Events List
+        Worker->>Queue: Publish Event (Job)
+        Worker->>DB: UPDATE outbox_events SET status = 'PROCESSED'
+        deactivate Worker
+    end
+```
+
+### 3. Samurai Pro (Plataforma de Automação B2B)
+Motor de automação e integração de processos de negócio, construído com foco em escalabilidade e tolerância a falhas.
+- **Core:** Desenvolvido em Python (FastAPI), conteinerizado via Docker.
+- **Workflow & Orquestração:** Fluxos complexos orquestrados de forma declarativa via n8n.
+- **Auto-healing com IA:** Utilização de IA Multimodal (GPT-4o Vision) para identificar quebras de UI em automações web e disparar rotinas de autocorreção (*Thread* de recuperação).
+
+<br />
+
+---
+
+## ✦ Cloud Unit Economics & FinOps (ADR)
+
+> **Decisão Arquitetural de Armazenamento:** AWS S3 vs Cloudflare R2 para WSP Finance
+
+Como Engineering Manager, priorizo o design de arquiteturas que não apenas escalam tecnicamente, mas também financeiramente. A tabela abaixo ilustra a projeção de economia (FinOps) no armazenamento de 5TB de notas fiscais com 2TB de egresso mensal.
+
+| Provedor / Serviço | Custo Storage (5TB) | Custo Egresso (2TB) | Custo Total Mensal | Impacto (Anualizado) |
+| :--- | :---: | :---: | :---: | :---: |
+| **AWS S3** (Standard) | ~$115.00 | ~$180.00 | **~$295.00** | ~$3,540.00 |
+| **Cloudflare R2** | ~$75.00 | **$0.00** | **~$75.00** | **~$900.00** |
+
+**Decisão (ADR):** A escolha pelo Cloudflare R2 reduziu o custo projetado de egresso a **zero**, gerando uma economia estimada de aproximadamente **74%** ao mês. Este design *Zero OpEx* de egresso é fundamental para manter a margem do produto B2B2C sustentável em larga escala.
+
+<br />
+
+---
+
+<!-- INSERIR GITHUB 3D CONTRIB AQUI -->
+<!--
+Lembrete: Ativar a GitHub Action 'github-profile-3d-contrib'
+(https://github.com/yoshi389111/github-profile-3d-contrib)
+para gerar o skyline tridimensional de contribuições nesta seção.
+Isso substituirá os "Stats Cards" tradicionais por uma visualização
+impactante e elegante da sua constância de código.
+-->
+<div align="center">
+  <p><i>Gráfico de Contribuições 3D (Skyline) a ser renderizado via Action.</i></p>
+</div>
+
+<br />
+<div align="center">
+  <p><i>"Code is poetry, architecture is strategy."</i></p>
+</div>
