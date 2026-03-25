@@ -1,83 +1,112 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Wellington%20Siqueira%20Porto%20🚀&fontColor=fff&fontSize=40&fontAlignY=35)
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
 
-### 👋 Olá, eu sou o Wellington Siqueira Porto
-
-> 💻 Estudante de **Desenvolvimento de Software Multiplataforma** apaixonado por tecnologia e resolução de problemas.
-> 📍 Guarulhos, Brasil | 🎯 Buscando uma oportunidade de estágio para aplicar meus conhecimentos e contribuir com a equipe.
-
----
-
-### 🧭 Sobre mim
-
-Sou um desenvolvedor focado em construir soluções eficientes, com experiência prática em projetos **full-stack (React, FastAPI e MySQL)**.
-
-Estou no **4º semestre de Desenvolvimento de Software Multiplataforma na FATEC**, onde também participo ativamente de um projeto de **Iniciação Científica**. Meu foco é a análise de dados (metodologia Speckle), modelagem de banco de dados relacional e a criação de algoritmos de busca inteligente (como o *Greedy Best-First Search*).
-
-Este projeto de IC foi apresentado nos simpósios **27º SICT - FATEC-SP** e **VII SICT – CPS/CNPq**.
-
-📘 Foco atual: **Algoritmos de Busca, Análise de Dados e Modelagem de Banco de Dados Relacional**.
-
-🎮 No tempo livre: gosto de ir à academia, jogar futebol/basquete, cozinhar e assistir séries.
-
----
-
-### 🧰 Tecnologias e Ferramentas
-
-#### 💡 Frontend
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-#### ⚙️ Backend
-![Python](https://img.shields.io/badge/Python-3670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-109989?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
-#### 🧱 Banco de Dados
-![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C.svg?style=for-the-badge&logo=sql&logoColor=white)
-
-#### 🛠️ Ferramentas e Outros
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
-
----
-
-### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=wellingtonspdev&theme=tokyonight&hide_border=true" width="400px" alt="Wellington's GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api?username=wellingtonspdev&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" width="400px" alt="Wellington's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wellingtonspdev&theme=tokyonight&show_icons=true&hide_border=true&layout=compact" width="280px" alt="Wellington's Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast" alt="Typing SVG">
+  </picture>
 </div>
 
----
+<h2 align="center">Hi 👋! My name is Wellington Siqueira Porto and I'm a Software Engineer / Arquiteto FinOps, from Guarulhos, SP.</h2>
 
-### 🤝 Vamos nos conectar!
-
-<div align="left">
+<div align="center">
+  <br />
   <a href="https://www.linkedin.com/in/wellingtonsp-dev" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/-LinkedIn-black?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
+  <a href="https://github.com/wellingtonspdev" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
   <a href="mailto:wellingtonsp.dev@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/-E--mail-black?style=flat&logo=gmail&logoColor=white" alt="E-mail" />
   </a>
+  &nbsp;
+  <a href="https://wellingtonspdev.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/-Portfolio-black?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <br />
+  <br />
 </div>
 
 ---
 
-### 💬 Frase que me inspira
-> *“Omnes in proposito...”*
+## ✦ Sobre Mim
+
+> **Engenharia de Stakeholders & Soluções Centradas no Usuário**
+
+Graduando em Engenharia de Software (FATEC) e Pesquisador de IA (CNPq), combinando rigor acadêmico com experiência multidisciplinar em Customer Experience. Atualmente, foco em:
+- **Inteligência Artificial (Applied AI):** Implementação de arquiteturas RAG (Local/Cloud) e IA Semântica isolada.
+- **Backend & Design de Sistemas:** Construção de sistemas distribuídos resilientes com padrões como *Transactional Outbox*.
+- **Cloud FinOps:** Design de infraestrutura com foco absoluto em *Zero OpEx* e *Unit Economics* escaláveis.
+
+<br />
+
+## ✦ Tech Stack Principal
+
+> Ferramental consolidado para construção de sistemas distribuídos e IAs aplicadas.
+
+| Core & Runtimes | Data & Messaging | Infra & Cloud | Frontend & UI |
+| :---: | :---: | :---: | :---: |
+| <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,nodejs,ts&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,redis&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react&theme=dark" /></a> |
+
+<br />
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=120&section=footer)
+## ✦ Cases de Arquitetura (System Design / Private Repos)
+
+Abaixo estão arquiteturas que projetei e implementei em cenários de alta complexidade.
+
+### 1. WSP Finance (SaaS B2B2C)
+Plataforma financeira com foco em auditoria contábil.
+- **Linter Fiscal:** Motor de IA Semântica isolada via Google Vertex AI para validação de regras fiscais.
+- **Infraestrutura Zero OpEx:** Armazenamento via Cloudflare R2, eliminando taxas de egresso tradicionais.
+
+### 2. Ecossistema VIVA (HealthTech)
+Ecossistema de saúde com processamento assíncrono de alto volume. Construído com NestJS.
+- **Stack de Alta Performance:** Orquestração de filas com BullMQ e caching via Redis.
+- **RAG Local:** Retrieval-Augmented Generation *on-device* via `sqlite-vec` para privacidade *Zero-Trust* de dados médicos.
+
+### 3. Samurai Pro (Plataforma de Automação B2B)
+Motor de automação baseado em *Remote Browser Isolation* (RBI).
+- **Auto-healing com IA:** Uso de IA Multimodal (GPT-4o Vision) para autocorreção dinâmica de quebras de UI em fluxos web.
+- **FinOps Strategy:** Redução de 28% no OPEX operacional via Oracle Cloud (OCI) Free Egress.
+
+<br />
+
+---
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=wellingtonspdev&theme=tokyonight&hide_border=false&border_radius=5" height="150" alt="streak graph" />
+  <img src="https://github-profile-trophy.vercel.app?username=wellingtonspdev&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wellingtonspdev&show_icons=true&count_private=true&theme=tokyonight&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wellingtonspdev&layout=compact&theme=tokyonight&hide_border=false" height="150" alt="languages graph" />
+</div>
+
+###
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph.svg">
+  </picture>
+</div>
+
+<br clear="both">
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/snake.svg" alt="Snake animation" />
+</div>
+
+<div align="center">
+  <p><i>"Code is poetry, architecture is strategy."</i></p>
+</div>
