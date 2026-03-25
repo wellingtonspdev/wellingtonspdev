@@ -2,13 +2,13 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Execução a cada 12 horas para eficiência de recursos
-  workflow_dispatch: # Permite execução manual para testes
+    - cron: "0 */12 * * *" # Executa a cada 12 horas para manter o gráfico atualizado
+  workflow_dispatch: # Permite execução manual para validação imediata
   push:
     branches:
     - main
 
-# Princípio de Privilégio Mínimo: concede apenas escrita de conteúdo
+# Define permissões explícitas para garantir a escrita na branch de saída
 permissions:
   contents: write
 
@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Gera os SVGs baseados no seu perfil (wellingtonspdev)
+      # Gera os arquivos SVG baseados no seu perfil real: wellingtonspdev
       - name: generate-snake-svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -27,7 +27,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?color_snake=#7845ab&color_dots=#161b22,#42107d,#6327af,#8144d6,#9e67ea
 
-      # Deploy dos ativos gerados na branch 'output'
+      # Persiste os arquivos gerados na branch 'output'
       - name: push-snake-svg-to-output
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
