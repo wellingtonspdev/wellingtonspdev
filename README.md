@@ -69,59 +69,13 @@ Ecossistema de saúde focado em processamento assíncrono de alto volume e infer
 - **Stack de Alta Performance:** Orquestração de filas com BullMQ, caching e *rate-limiting* via Redis.
 - **RAG Local:** Implementação de Retrieval-Augmented Generation *on-premise* utilizando \`sqlite-vec\` para garantia de privacidade de dados médicos (*Zero-Trust*).
 
-**Padrão de Resiliência: Transactional Outbox**
-Implementado para garantir consistência eventual em integrações de sistemas legados de clínicas, onde a estabilidade da rede não é garantida:
-
-```mermaid
-sequenceDiagram
-    autonumber
-    participant Client as Client Request
-    participant API as VIVA Core (NestJS)
-    participant DB as PostgreSQL (Outbox)
-    participant Worker as Outbox Poller
-    participant Queue as BullMQ / Redis
-
-    Client->>API: POST /paciente/prontuario
-    activate API
-    API->>DB: BEGIN TRANSACTION
-    API->>DB: INSERT INTO prontuarios (dados)
-    API->>DB: INSERT INTO outbox_events (evento_sync_clinica)
-    DB-->>API: COMMIT
-    API-->>Client: 201 Created (ACK)
-    deactivate API
-
-    loop Every 2s
-        Worker->>DB: SELECT * FROM outbox_events WHERE status = 'PENDING'
-        activate Worker
-        DB-->>Worker: Events List
-        Worker->>Queue: Publish Event (Job)
-        Worker->>DB: UPDATE outbox_events SET status = 'PROCESSED'
-        deactivate Worker
-    end
-```
+--- 
 
 ### 3. Samurai Pro (Plataforma de Automação B2B)
 Motor de automação e integração de processos de negócio, construído com foco em escalabilidade e tolerância a falhas.
 - **Core:** Desenvolvido em Python (FastAPI), conteinerizado via Docker.
 - **Workflow & Orquestração:** Fluxos complexos orquestrados de forma declarativa via n8n.
 - **Auto-healing com IA:** Utilização de IA Multimodal (GPT-4o Vision) para identificar quebras de UI em automações web e disparar rotinas de autocorreção (*Thread* de recuperação).
-
-<br />
-
----
-
-## ✦ Cloud Unit Economics & FinOps (ADR)
-
-> **Decisão Arquitetural de Armazenamento:** AWS S3 vs Cloudflare R2 para WSP Finance
-
-Como Engineering Manager, priorizo o design de arquiteturas que não apenas escalam tecnicamente, mas também financeiramente. A tabela abaixo ilustra a projeção de economia (FinOps) no armazenamento de 5TB de notas fiscais com 2TB de egresso mensal.
-
-| Provedor / Serviço | Custo Storage (5TB) | Custo Egresso (2TB) | Custo Total Mensal | Impacto (Anualizado) |
-| :--- | :---: | :---: | :---: | :---: |
-| **AWS S3** (Standard) | ~$115.00 | ~$180.00 | **~$295.00** | ~$3,540.00 |
-| **Cloudflare R2** | ~$75.00 | **$0.00** | **~$75.00** | **~$900.00** |
-
-**Decisão (ADR):** A escolha pelo Cloudflare R2 reduziu o custo projetado de egresso a **zero**, gerando uma economia estimada de aproximadamente **74%** ao mês. Este design *Zero OpEx* de egresso é fundamental para manter a margem do produto B2B2C sustentável em larga escala.
 
 <br />
 
