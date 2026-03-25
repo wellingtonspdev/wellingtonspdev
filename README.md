@@ -1,36 +1,22 @@
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
-
-
-<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast" alt="Typing SVG">
   </picture>
 </div>
 
-<h2 align="center">Hi 👋! My name is Wellington Siqueira Porto and I'm a Software Engineer / Arquiteto FinOps, from Guarulhos, SP.</h2>
+<h2 align="center">Hey 👋 What's Up? I'm Wellington Siqueira Porto.</h2>
 
 <div align="center">
-  <br />
   <a href="https://www.linkedin.com/in/wellingtonsp-dev" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-black?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
-  &nbsp;
-  <a href="https://github.com/wellingtonspdev" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
   <a href="mailto:wellingtonsp.dev@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-E--mail-black?style=flat&logo=gmail&logoColor=white" alt="E-mail" />
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="25" alt="gmail logo" />
   </a>
-  &nbsp;
-  <a href="https://wellingtonspdev.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/-Portfolio-black?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  <a href="https://github.com/wellingtonspdev" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=121011&logoColor=white&style=for-the-badge" height="25" alt="github logo" />
   </a>
-  <br />
-  <br />
 </div>
 
 ---
@@ -39,51 +25,47 @@
 
 > **Engenharia de Stakeholders & Soluções Centradas no Usuário**
 
-Graduando em Engenharia de Software (FATEC) e Pesquisador de IA (CNPq), combinando rigor acadêmico com experiência multidisciplinar em Customer Experience. Atualmente, foco em:
-- **Inteligência Artificial (Applied AI):** Implementação de arquiteturas RAG (Local/Cloud) e IA Semântica isolada.
-- **Backend & Design de Sistemas:** Construção de sistemas distribuídos resilientes com padrões como *Transactional Outbox*.
-- **Cloud FinOps:** Design de infraestrutura com foco absoluto em *Zero OpEx* e *Unit Economics* escaláveis.
+Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo CNPq. Minha atuação une o rigor acadêmico com a visão estratégica de produto.
+- **Applied AI:** Arquiteturas RAG (Edge/Cloud) e IA Semântica isolada.
+- **Backend & Design de Sistemas:** Resiliência com padrões *Transactional Outbox* e sistemas distribuídos.
+- **Cloud FinOps:** Design de infraestrutura focado em *Zero OpEx* e eliminação de taxas de egresso.
 
-<br />
-
-## ✦ Tech Stack Principal
-
-> Ferramental consolidado para construção de sistemas distribuídos e IAs aplicadas.
-
-| Core & Runtimes | Data & Messaging | Infra & Cloud | Frontend & UI |
-| :---: | :---: | :---: | :---: |
-| <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,nodejs,ts&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,redis&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws&theme=dark" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react&theme=dark" /></a> |
-
-<br />
+### ⚙️ Tech Stack Principal
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,py,nestjs,fastapi,django,postgres,redis,docker,aws,react,tailwind" height="50" alt="tech stack" />
+</div>
 
 ---
 
-## ✦ Cases de Arquitetura (System Design / Private Repos)
-
-Abaixo estão arquiteturas que projetei e implementei em cenários de alta complexidade.
+## ✦ Cases de Arquitetura & Projetos
 
 ### 1. WSP Finance (SaaS B2B2C)
-Plataforma financeira com foco em auditoria contábil.
-- **Linter Fiscal:** Motor de IA Semântica isolada via Google Vertex AI para validação de regras fiscais.
-- **Infraestrutura Zero OpEx:** Armazenamento via Cloudflare R2, eliminando taxas de egresso tradicionais.
+- **Linter Fiscal:** Motor de IA via Google Vertex AI para análise semântica de legislação.
+- **Infraestrutura FinOps:** Armazenamento via Cloudflare R2, eliminando taxas de egresso na guarda de XMLs.
 
-### 2. Ecossistema VIVA (HealthTech)
-Ecossistema de saúde com processamento assíncrono de alto volume. Construído com NestJS.
-- **Stack de Alta Performance:** Orquestração de filas com BullMQ e caching via Redis.
-- **RAG Local:** Retrieval-Augmented Generation *on-device* via `sqlite-vec` para privacidade *Zero-Trust* de dados médicos.
+### 2. Define Pilates (SaaS B2B Multi-tenant)
+- **Liderança Técnica:** Atuação como Tech Lead de um time de 8 desenvolvedores.
+- **Qualidade:** Implementação de TDD, Code Reviews e isolamento de inquilinos via Django.
 
-### 3. Samurai Pro (Plataforma de Automação B2B)
-Motor de automação baseado em *Remote Browser Isolation* (RBI).
-- **Auto-healing com IA:** Uso de IA Multimodal (GPT-4o Vision) para autocorreção dinâmica de quebras de UI em fluxos web.
-- **FinOps Strategy:** Redução de 28% no OPEX operacional via Oracle Cloud (OCI) Free Egress.
+### 3. Ecossistema VIVA (HealthTech)
+- **Edge RAG:** Busca semântica local via `sqlite-vec` para total privacidade de dados sensíveis.
+- **Performance:** Orquestração assíncrona com BullMQ e Redis.
 
-<br />
+### 4. Samurai Pro (Automação B2B)
+- **Auto-healing com IA:** Uso de GPT-4o Vision para correção dinâmica de interfaces.
+- **FinOps:** Redução de 28% no OPEX operacional via Oracle Cloud (OCI).
+
+### 5. Iniciação Científica (CNPq)
+- **Algoritmos:** Implementação de *Greedy Best-First Search* para classificação de solo via Interferometria Speckle.
+
+### 6. Plataforma IBDN (Sustentabilidade)
+- **Modernização:** Desenvolvimento de SPA e API RESTful (React + FastAPI) para gestão ambiental.
 
 ---
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=wellingtonspdev&theme=tokyonight&hide_border=false&border_radius=5" height="150" alt="streak graph" />
-  <img src="https://github-profile-trophy.vercel.app?username=wellingtonspdev&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
+  <img src="https://github-profile-trophy.vercel.app?username=wellingtonspdev&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
 </div>
 
 <div align="center">
@@ -99,12 +81,6 @@ Motor de automação baseado em *Remote Browser Isolation* (RBI).
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph.svg">
     <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph.svg">
   </picture>
-</div>
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/snake.svg" alt="Snake animation" />
 </div>
 
 <div align="center">
