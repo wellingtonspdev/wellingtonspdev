@@ -1,4 +1,3 @@
-<!-- HEADER ANIMADO E DINÂMICO (DARK/LIGHT MODE) -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast">
@@ -6,7 +5,8 @@
   </picture>
 </div>
 
-<!-- LINKS SOCIAIS MINIMALISTAS -->
+<h2 align="center">Hi 👋! My name is Wellington Siqueira Porto and I'm a Software Engineer / Arquiteto FinOps, from Guarulhos, SP.</h2>
+
 <div align="center">
   <br />
   <a href="https://www.linkedin.com/in/wellingtonsp-dev" target="_blank">
@@ -34,11 +34,9 @@
 
 > **Engenharia de Stakeholders & Soluções Centradas no Usuário**
 
-Graduando em Engenharia de Software (FATEC) e Pesquisador de IA (CNPq), combinando rigor acadêmico com 5+ anos de experiência prévia em Customer Experience (Varejo). Essa trajetória me garante forte "Engenharia de Stakeholders" e um foco inabalável em arquitetar soluções que resolvem dores reais de negócio.
-
-Atualmente, minha atuação técnica está concentrada nos pilares de:
+Graduando em Engenharia de Software (FATEC) e Pesquisador de IA (CNPq), combinando rigor acadêmico com experiência multidisciplinar em Customer Experience. Atualmente, foco em:
 - **Inteligência Artificial (Applied AI):** Implementação de arquiteturas RAG (Local/Cloud) e IA Semântica isolada.
-- **Backend & Integrações:** Construção de sistemas distribuídos resilientes utilizando Webhooks e padrões como *Transactional Outbox*.
+- **Backend & Design de Sistemas:** Construção de sistemas distribuídos resilientes com padrões como *Transactional Outbox*.
 - **Cloud FinOps:** Design de infraestrutura com foco absoluto em *Zero OpEx* e *Unit Economics* escaláveis.
 
 <br />
@@ -57,43 +55,53 @@ Atualmente, minha atuação técnica está concentrada nos pilares de:
 
 ## ✦ Cases de Arquitetura (System Design / Private Repos)
 
-Abaixo estão arquiteturas que projetei e implementei em cenários de alta complexidade de negócio e integrações críticas.
+Abaixo estão arquiteturas que projetei e implementei em cenários de alta complexidade.
 
 ### 1. WSP Finance (SaaS B2B2C)
-Plataforma financeira desenhada com foco em auditoria automatizada e otimização agressiva de custos operacionais.
-- **Linter Fiscal:** Motor de IA Semântica isolada utilizando Google Vertex AI para análise e validação de regras de negócio em documentos fiscais.
-- **Infraestrutura Zero OpEx:** Armazenamento em larga escala de notas fiscais utilizando Cloudflare R2, eliminando completamente as taxas de egresso tradicionais.
+Plataforma financeira com foco em auditoria contábil.
+- **Linter Fiscal:** Motor de IA Semântica isolada via Google Vertex AI para validação de regras fiscais.
+- **Infraestrutura Zero OpEx:** Armazenamento via Cloudflare R2, eliminando taxas de egresso tradicionais.
 
 ### 2. Ecossistema VIVA (HealthTech)
-Ecossistema de saúde focado em processamento assíncrono de alto volume e inferência de dados sensíveis. Construído com NestJS.
-- **Stack de Alta Performance:** Orquestração de filas com BullMQ, caching e *rate-limiting* via Redis.
-- **RAG Local:** Implementação de Retrieval-Augmented Generation *on-premise* utilizando \`sqlite-vec\` para garantia de privacidade de dados médicos (*Zero-Trust*).
-
---- 
+Ecossistema de saúde com processamento assíncrono de alto volume. Construído com NestJS.
+- **Stack de Alta Performance:** Orquestração de filas com BullMQ e caching via Redis.
+- **RAG Local:** Retrieval-Augmented Generation *on-device* via `sqlite-vec` para privacidade *Zero-Trust* de dados médicos.
 
 ### 3. Samurai Pro (Plataforma de Automação B2B)
-Motor de automação e integração de processos de negócio, construído com foco em escalabilidade e tolerância a falhas.
-- **Core:** Desenvolvido em Python (FastAPI), conteinerizado via Docker.
-- **Workflow & Orquestração:** Fluxos complexos orquestrados de forma declarativa via n8n.
-- **Auto-healing com IA:** Utilização de IA Multimodal (GPT-4o Vision) para identificar quebras de UI em automações web e disparar rotinas de autocorreção (*Thread* de recuperação).
+Motor de automação baseado em *Remote Browser Isolation* (RBI).
+- **Auto-healing com IA:** Uso de IA Multimodal (GPT-4o Vision) para autocorreção dinâmica de quebras de UI em fluxos web.
+- **FinOps Strategy:** Redução de 28% no OPEX operacional via Oracle Cloud (OCI) Free Egress.
 
 <br />
 
 ---
 
-<!-- INSERIR GITHUB 3D CONTRIB AQUI -->
-<!--
-Lembrete: Ativar a GitHub Action 'github-profile-3d-contrib'
-(https://github.com/yoshi389111/github-profile-3d-contrib)
-para gerar o skyline tridimensional de contribuições nesta seção.
-Isso substituirá os "Stats Cards" tradicionais por uma visualização
-impactante e elegante da sua constância de código.
--->
 <div align="center">
-  <p><i>Gráfico de Contribuições 3D (Skyline) a ser renderizado via Action.</i></p>
+  <img src="https://streak-stats.demolab.com?user=wellingtonspdev&theme=tokyonight&hide_border=false&border_radius=5" height="150" alt="streak graph" />
+  <img src="https://github-profile-trophy.vercel.app?username=wellingtonspdev&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
 </div>
 
-<br />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wellingtonspdev&show_icons=true&count_private=true&theme=tokyonight&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wellingtonspdev&layout=compact&theme=tokyonight&hide_border=false" height="150" alt="languages graph" />
+</div>
+
+###
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/pacman-contribution-graph.svg">
+  </picture>
+</div>
+
+<br clear="both">
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/snake.svg" alt="Snake animation" />
+</div>
+
 <div align="center">
   <p><i>"Code is poetry, architecture is strategy."</i></p>
 </div>
