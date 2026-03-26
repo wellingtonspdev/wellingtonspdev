@@ -2,21 +2,21 @@ name: Generate Pacman Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Execução diária
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Execução diária à meia-noite para otimização de FinOps
+  workflow_dispatch: 
   push:
     branches:
       - main
 
 permissions:
-  contents: write
+  [cite_start]contents: write # Essencial para o push na branch output [cite: 3254]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Pacman Graph
-        uses: khalidshrif/pacman-contribution-graph@master
+        uses: JidSerey/en-ch-pacman-graph@master
         with:
           github_user_name: wellingtonspdev
           github_token: ${{ secrets.GITHUB_TOKEN }}
