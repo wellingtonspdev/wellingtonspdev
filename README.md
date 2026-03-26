@@ -1,4 +1,11 @@
 <div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
+
+
+
+
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast" alt="Typing SVG">
@@ -23,12 +30,12 @@
 
 ## ✦ Sobre Mim
 
-> **Engenharia de Stakeholders & Soluções Centradas no Usuário**
+> [cite_start]**Engenharia de Stakeholders & Soluções Centradas no Usuário** [cite: 3153]
 
-Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo CNPq. Minha atuação une o rigor acadêmico com a visão estratégica de produto.
-- **Applied AI:** Arquiteturas RAG (Edge/Cloud) e IA Semântica isolada.
-- **Backend & Design de Sistemas:** Resiliência com padrões *Transactional Outbox* e sistemas distribuídos.
-- **Cloud FinOps:** Design de infraestrutura focado em *Zero OpEx* e eliminação de taxas de egresso.
+[cite_start]Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo CNPq[cite: 3155, 3178]. [cite_start]Minha atuação une o rigor acadêmico com a visão estratégica de produto desenvolvida em liderança de equipes[cite: 3156, 3157].
+- [cite_start]**Applied AI:** Arquiteturas RAG (Edge/Cloud) e IA Semântica isolada[cite: 3220, 3245].
+- [cite_start]**Backend & Design de Sistemas:** Resiliência com padrões *Transactional Outbox* e sistemas distribuídos[cite: 3223, 3243].
+- [cite_start]**Cloud FinOps:** Design focado em *Zero OpEx* e eliminação de taxas de egresso[cite: 3205, 3216].
 
 ### ⚙️ Tech Stack Principal
 <div align="left">
@@ -40,26 +47,20 @@ Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo C
 ## ✦ Cases de Arquitetura & Projetos
 
 ### 1. WSP Finance (SaaS B2B2C)
-- **Linter Fiscal:** Motor de IA via Google Vertex AI para análise semântica de legislação.
-- **Infraestrutura FinOps:** Armazenamento via Cloudflare R2, eliminando taxas de egresso na guarda de XMLs.
+- [cite_start]**Linter Fiscal:** Motor de IA via Google Vertex AI para análise semântica de legislação[cite: 3219, 3221].
+- [cite_start]**Infraestrutura FinOps:** Armazenamento via Cloudflare R2, eliminando taxas de egresso[cite: 3215, 3216].
 
 ### 2. Define Pilates (SaaS B2B Multi-tenant)
-- **Liderança Técnica:** Atuação como Tech Lead de um time de 8 desenvolvedores.
-- **Qualidade:** Implementação de TDD, Code Reviews e isolamento de inquilinos via Django.
+- [cite_start]**Liderança Técnica:** Atuação como Tech Lead de um time de 8 desenvolvedores[cite: 3157, 3169].
+- [cite_start]**Qualidade:** Implementação de TDD, Code Reviews e isolamento via Django[cite: 3167, 3168].
 
 ### 3. Ecossistema VIVA (HealthTech)
-- **Edge RAG:** Busca semântica local via `sqlite-vec` para total privacidade de dados sensíveis.
-- **Performance:** Orquestração assíncrona com BullMQ e Redis.
+- [cite_start]**Edge RAG:** Busca semântica local via `sqlite-vec` para total privacidade[cite: 3245, 3246].
+- [cite_start]**Performance:** Orquestração assíncrona com BullMQ e Redis[cite: 3236, 3243].
 
 ### 4. Samurai Pro (Automação B2B)
-- **Auto-healing com IA:** Uso de GPT-4o Vision para correção dinâmica de interfaces.
-- **FinOps:** Redução de 28% no OPEX operacional via Oracle Cloud (OCI).
-
-### 5. Iniciação Científica (CNPq)
-- **Algoritmos:** Implementação de *Greedy Best-First Search* para classificação de solo via Interferometria Speckle.
-
-### 6. Plataforma IBDN (Sustentabilidade)
-- **Modernização:** Desenvolvimento de SPA e API RESTful (React + FastAPI) para gestão ambiental.
+- [cite_start]**Auto-healing com IA:** Uso de GPT-4o Vision para correção dinâmica de interfaces[cite: 3198, 3211].
+- [cite_start]**FinOps:** Redução de 28% no OPEX operacional via Oracle Cloud (OCI)[cite: 3205].
 
 ---
 
