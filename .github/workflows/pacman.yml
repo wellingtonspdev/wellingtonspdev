@@ -1,0 +1,32 @@
+name: Generate Pacman Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Execução diária à meia-noite
+  workflow_dispatch: # Permite execução manual para validação
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write # Essencial para persistir os arquivos na branch output
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Gera o gráfico de contribuições no estilo Pac-Man
+      - name: Pacman Graph
+        uses: khalidshrif/pacman-contribution-graph@master
+        with:
+          github_user_name: wellingtonspdev
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Publica os arquivos gerados na branch 'output'
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: pacman-graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
