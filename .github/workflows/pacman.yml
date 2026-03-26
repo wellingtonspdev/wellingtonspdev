@@ -1,37 +1,30 @@
-name: Generate Contribution Graph
+name: Generate Pacman Graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Execução a cada 12 horas
+    - cron: "0 0 * * *" # Execução diária
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
 
-# Define as permissões necessárias para escrita (Compliance Zero-Trust)
 permissions:
   contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
-      # Gera o gráfico de contribuições (Versão v3 - Estável)
-      - name: generate-contribution-graph
-        uses: Platane/snk/svg-only@v3
+      - name: Pacman Graph
+        uses: khalidshrif/pacman-contribution-graph@master
         with:
           github_user_name: wellingtonspdev
-          outputs: |
-            dist/contribution-graph.svg
-            dist/contribution-graph-dark.svg?color_snake=#7845ab&color_dots=#161b22,#42107d,#6327af,#8144d6,#9e67ea
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Realiza o deploy automático para a branch 'output'
-      - name: push-contribution-graph-to-output
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: pacman-graph
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
