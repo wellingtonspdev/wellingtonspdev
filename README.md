@@ -30,12 +30,12 @@
 
 ## ✦ Sobre Mim
 
-> [cite_start]**Engenharia de Stakeholders & Soluções Centradas no Usuário** [cite: 3153]
+> **Engenharia de Stakeholders & Soluções Centradas no Usuário**
 
-[cite_start]Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo CNPq[cite: 3155, 3178]. [cite_start]Minha atuação une o rigor acadêmico com a visão estratégica de produto desenvolvida em liderança de equipes[cite: 3156, 3157].
-- [cite_start]**Applied AI:** Arquiteturas RAG (Edge/Cloud) e IA Semântica isolada[cite: 3220, 3245].
-- [cite_start]**Backend & Design de Sistemas:** Resiliência com padrões *Transactional Outbox* e sistemas distribuídos[cite: 3223, 3243].
-- [cite_start]**Cloud FinOps:** Design focado em *Zero OpEx* e eliminação de taxas de egresso[cite: 3205, 3216].
+Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo CNPq. Minha atuação une o rigor acadêmico com a visão estratégica de produto desenvolvida em liderança de equipes.
+- **Applied AI:** Arquiteturas RAG (Edge/Cloud) e IA Semântica isolada.
+- **Backend & Design de Sistemas:** Resiliência com padrões *Transactional Outbox* e sistemas distribuídos.
+- **Cloud FinOps:** Design focado em *Zero OpEx* e eliminação de taxas de egresso.
 
 ### ⚙️ Tech Stack Principal
 <div align="left">
@@ -46,21 +46,51 @@
 
 ## ✦ Cases de Arquitetura & Projetos
 
-### 1. WSP Finance (SaaS B2B2C)
-- [cite_start]**Linter Fiscal:** Motor de IA via Google Vertex AI para análise semântica de legislação[cite: 3219, 3221].
-- [cite_start]**Infraestrutura FinOps:** Armazenamento via Cloudflare R2, eliminando taxas de egresso[cite: 3215, 3216].
+### 💰 WSP Finance | SaaS B2B2C de Automação Financeira
+`Node.js` · `TypeScript` · `Express` · `PostgreSQL (Prisma)` · `Cloudflare R2`
 
-### 2. Define Pilates (SaaS B2B Multi-tenant)
-- [cite_start]**Liderança Técnica:** Atuação como Tech Lead de um time de 8 desenvolvedores[cite: 3157, 3169].
-- [cite_start]**Qualidade:** Implementação de TDD, Code Reviews e isolamento via Django[cite: 3167, 3168].
+Plataforma de gestão financeira híbrida (PF e PJ) e automação de BPO Contábil sob arquitetura de Monólito Modular.
+- **IA Híbrida — Linter Fiscal:** Isola a análise semântica da legislação (Vertex AI / Gemini) da matemática determinística no backend, mitigando alucinações e garantindo precisão financeira.
+- **Cloud FinOps — Zero OpEx:** Cloudflare R2 para armazenamento de XMLs e notas fiscais, eliminando 100% das taxas de egresso de dados.
+- **Segurança Zero-Trust:** Row-Level Security (RLS) no PostgreSQL para isolamento físico entre inquilinos + Criptografia de Envelope (AES-256) para Certificados Digitais A1.
 
-### 3. Ecossistema VIVA (HealthTech)
-- [cite_start]**Edge RAG:** Busca semântica local via `sqlite-vec` para total privacidade[cite: 3245, 3246].
-- [cite_start]**Performance:** Orquestração assíncrona com BullMQ e Redis[cite: 3236, 3243].
+---
 
-### 4. Samurai Pro (Automação B2B)
-- [cite_start]**Auto-healing com IA:** Uso de GPT-4o Vision para correção dinâmica de interfaces[cite: 3198, 3211].
-- [cite_start]**FinOps:** Redução de 28% no OPEX operacional via Oracle Cloud (OCI)[cite: 3205].
+### 🏥 Ecossistema VIVA | HealthTech — Edge AI & Telemetria
+`NestJS` · `BullMQ` · `Redis` · `PostgreSQL` · `sqlite-vec` · `Next.js` · `Flutter`
+
+Ecossistema B2B2C para monitoramento passivo de idosos e telemetria clínica preventiva sob modelo Edge-to-Cloud Híbrido.
+- **Edge AI & RAG Local:** Infraestrutura RAG embarcada via `sqlite-vec` — buscas semânticas com menos de 30 MB de RAM e zero chamadas externas, garantindo privacidade total de dados médicos.
+- **Resiliência Assíncrona:** Padrão *Transactional Outbox* + BullMQ/Redis isolando o *Event Loop* principal contra falhas em cascata em webhooks e geração de imagens via IA.
+- **Compliance SaMD:** "SpeechShield" com NER local para mascaramento de PII + esteira CI/CD com Semgrep e Trivy bloqueando merges sem cobertura mínima de testes.
+
+---
+
+### 🥷 Samurai Pro | Plataforma B2B de Automação Web e RBI
+`Python 3` · `FastAPI` · `Docker` · `Oracle Cloud (OCI)` · `n8n` · `Playwright` · `GPT-4o Vision`
+
+SaaS baseado em Remote Browser Isolation (RBI) para orquestração de fluxos complexos com anti-fingerprinting.
+- **Performance Bare-Metal:** Kernel Samepage Merging (KSM) com 40% de desduplicação de RAM entre contêineres + *Headless-less Automation* reduzindo footprint de 900 MB para menos de 60 MB.
+- **IA Multimodal & Auto-healing:** GPT-4o Vision para *Spatial Grounding* — o robô infere coordenadas visuais e se auto-recupera de mudanças drásticas no frontend-alvo.
+- **Segurança M2M:** Task runners desacoplados via n8n/Docker com cofre Zero-Trust (AES-128-CBC) e proteção em nível de kernel contra ataques de temporização.
+
+---
+
+### 🏋️ Define Pilates | SaaS B2B Multi-tenant
+`React` · `Vite` · `Django REST Framework` · `Python` · `MySQL` · `TailwindCSS`
+
+Sistema completo de gestão para estúdios — alunos, financeiro e agendamentos em uma única plataforma.
+- **Tech Lead (8 devs):** Definição de arquitetura, implementação de TDD para regras financeiras e cultura de Code Review.
+- **Qualidade de Código:** CI/CD com análise estática via SonarQube, prevenindo vulnerabilidades antes do merge.
+
+---
+
+### 🍃 Plataforma Ambiental IBDN | Full Stack Web
+`React` · `Zustand` · `TailwindCSS` · `FastAPI` · `MySQL` · `JWT`
+
+Solução web para digitalização de processos e gerenciamento de certificações ambientais empresariais.
+- **Arquitetura RESTful completa:** CRUD otimizado, autenticação segura e RBAC (Role-Based Access Control).
+- **SPA de alta performance:** Interface construída em Single Page Application, priorizando navegação fluida e UX.
 
 ---
 
