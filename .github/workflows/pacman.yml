@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pacman Graph
-        uses: abozanona/pacman-contribution-graph@v2.4.0
+        uses: abozanona/pacman-contribution-graph@2.4.0
         with:
           github_user_name: wellingtonspdev
           github_token: ${{ secrets.GITHUB_TOKEN }}
