@@ -46,7 +46,7 @@ Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo C
 
 ## ✦ Cases de Arquitetura & Projetos
 
-### 💰 WSP Finance | SaaS B2B2C de Automação Financeira
+### 💰 WSP Finance | SaaS B2B2C de Automação Financeira (Em Desenvolvimento)
 `Node.js` · `TypeScript` · `Express` · `PostgreSQL (Prisma)` · `Cloudflare R2`
 
 Plataforma de gestão financeira híbrida (PF e PJ) e automação de BPO Contábil sob arquitetura de Monólito Modular.
@@ -56,7 +56,7 @@ Plataforma de gestão financeira híbrida (PF e PJ) e automação de BPO Contáb
 
 ---
 
-### 🏥 Ecossistema VIVA | HealthTech — Edge AI & Telemetria
+### 🏥 Ecossistema VIVA | HealthTech — Edge AI & Telemetria (Em Desenvolvimento)
 `NestJS` · `BullMQ` · `Redis` · `PostgreSQL` · `sqlite-vec` · `Next.js` · `Flutter`
 
 Ecossistema B2B2C para monitoramento passivo de idosos e telemetria clínica preventiva sob modelo Edge-to-Cloud Híbrido.
@@ -66,7 +66,7 @@ Ecossistema B2B2C para monitoramento passivo de idosos e telemetria clínica pre
 
 ---
 
-### 🥷 Samurai Pro | Plataforma B2B de Automação Web e RBI
+### 🥷 Samurai Pro | Plataforma B2B de Automação Web e RBI (Em Desenvolvimento)
 `Python 3` · `FastAPI` · `Docker` · `Oracle Cloud (OCI)` · `n8n` · `Playwright` · `GPT-4o Vision`
 
 SaaS baseado em Remote Browser Isolation (RBI) para orquestração de fluxos complexos com anti-fingerprinting.
