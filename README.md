@@ -100,8 +100,8 @@ Solução web para digitalização de processos e gerenciamento de certificaçõ
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=wellingtonspdev&show_icons=true&count_private=true&theme=tokyonight&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=wellingtonspdev&layout=compact&theme=tokyonight&hide_border=false" height="150" alt="languages graph" />
+  <img src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/github-stats.svg" height="150" alt="stats graph" />
+  <img src="https://raw.githubusercontent.com/wellingtonspdev/wellingtonspdev/output/github-langs.svg" height="150" alt="languages graph" />
 </div>
 
 ###
