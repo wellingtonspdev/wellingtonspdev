@@ -2,19 +2,19 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
-
-
-
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Software+Engineer;Applied+AI+%26+Integrations;Cloud+FinOps+Enthusiast" alt="Typing SVG">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Desenvolvedor+de+Software+J%C3%BAnior;Full+Stack;Backend">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Desenvolvedor+de+Software+J%C3%BAnior;Full+Stack;Backend" alt="Typing SVG">
   </picture>
 </div>
 
 <h2 align="center">Hey 👋 What's Up? I'm Wellington Siqueira Porto.</h2>
 
 <div align="center">
+  <a href="https://wellingtonspdev.github.io/Portifolio/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Portfólio&logo=googlechrome&label=&color=4285F4&logoColor=white&style=for-the-badge" height="25" alt="portfolio" />
+  </a>
   <a href="https://www.linkedin.com/in/wellingtonsp-dev" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
@@ -30,67 +30,84 @@
 
 ## ✦ Sobre Mim
 
-> **Engenharia de Stakeholders & Soluções Centradas no Usuário**
+Desenvolvedor de Software Júnior em formação pela **FATEC Itaquera** (Tecnologia em Desenvolvimento de Software Multiplataforma), com experiência prática em projetos web, APIs, bancos de dados, modernização de sistemas legados e pesquisa aplicada com dados científicos.
 
-Graduando em Engenharia de Software na FATEC Itaquera e Pesquisador de IA pelo CNPq. Minha atuação une o rigor acadêmico com a visão estratégica de produto desenvolvida em liderança de equipes.
-- **Applied AI:** Arquiteturas RAG (Edge/Cloud) e IA Semântica isolada.
-- **Backend & Design de Sistemas:** Resiliência com padrões *Transactional Outbox* e sistemas distribuídos.
-- **Cloud FinOps:** Design focado em *Zero OpEx* e eliminação de taxas de egresso.
+- **Full Stack & Backend:** APIs REST com Node.js/Express e Python/Django, interfaces com React e aplicações que conectam frontend e backend de forma clara.
+- **Sistemas Legados:** Modernização incremental de aplicações PHP/CodeIgniter com foco em usabilidade, responsividade e documentação.
+- **Pesquisa Aplicada:** Iniciação científica com modelagem relacional, algoritmos de busca e organização de dados experimentais.
 
 ### ⚙️ Tech Stack Principal
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,py,nestjs,fastapi,django,postgres,redis,docker,aws,react,tailwind" height="50" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,py,django,fastapi,php,react,tailwind,postgres,mysql,docker,github" height="50" alt="tech stack" />
 </div>
 
 ---
 
-## ✦ Cases de Arquitetura & Projetos
+## ✦ Projetos em Destaque
 
-### 💰 WSP Finance | SaaS B2B2C de Automação Financeira (Em Desenvolvimento)
-`Node.js` · `TypeScript` · `Express` · `PostgreSQL (Prisma)` · `Cloudflare R2`
+### 🌐 Portfólio Profissional | Projeto Autoral
+`React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Three.js` · `Framer Motion` · `i18n` · `SEO`
 
-Plataforma de gestão financeira híbrida (PF e PJ) e automação de BPO Contábil sob arquitetura de Monólito Modular.
-- **IA Híbrida — Linter Fiscal:** Isola a análise semântica da legislação (Vertex AI / Gemini) da matemática determinística no backend, mitigando alucinações e garantindo precisão financeira.
-- **Cloud FinOps — Zero OpEx:** Cloudflare R2 para armazenamento de XMLs e notas fiscais, eliminando 100% das taxas de egresso de dados.
-- **Segurança Zero-Trust:** Row-Level Security (RLS) no PostgreSQL para isolamento físico entre inquilinos + Criptografia de Envelope (AES-256) para Certificados Digitais A1.
+Projeto autoral criado para transformar projetos, experiência, formação e pesquisa em cases técnicos navegáveis, bilíngues e prontos para avaliação por recrutadores.
+- **Visão de produto:** Cases com problema, solução, papel, processo e aprendizado — não apenas listas de skills.
+- **Experiência visual:** Interface com Three.js, animações Framer Motion, carrosséis de screenshots e fundo 3D interativo.
+- **SEO técnico:** Metadados por idioma, JSON-LD, Open Graph, sitemap, páginas pré-renderizadas e deploy automatizado via GitHub Actions no GitHub Pages.
 
----
-
-### 🏥 Ecossistema VIVA | HealthTech — Edge AI & Telemetria (Em Desenvolvimento)
-`NestJS` · `BullMQ` · `Redis` · `PostgreSQL` · `sqlite-vec` · `Next.js` · `Flutter`
-
-Ecossistema B2B2C para monitoramento passivo de idosos e telemetria clínica preventiva sob modelo Edge-to-Cloud Híbrido.
-- **Edge AI & RAG Local:** Infraestrutura RAG embarcada via `sqlite-vec` — buscas semânticas com menos de 30 MB de RAM e zero chamadas externas, garantindo privacidade total de dados médicos.
-- **Resiliência Assíncrona:** Padrão *Transactional Outbox* + BullMQ/Redis isolando o *Event Loop* principal contra falhas em cascata em webhooks e geração de imagens via IA.
-- **Compliance SaMD:** "SpeechShield" com NER local para mascaramento de PII + esteira CI/CD com Semgrep e Trivy bloqueando merges sem cobertura mínima de testes.
+🔗 [Código](https://github.com/wellingtonspdev/Portifolio) · [Portfólio online](https://wellingtonspdev.github.io/Portifolio/)
 
 ---
 
-### 🥷 Samurai Pro | Plataforma B2B de Automação Web e RBI (Em Desenvolvimento)
-`Python 3` · `FastAPI` · `Docker` · `Oracle Cloud (OCI)` · `n8n` · `Playwright` · `GPT-4o Vision`
+### 🏫 Reserva de Laboratórios FATEC | Modernização de Legado
+`PHP` · `CodeIgniter 3` · `MySQL` · `MariaDB` · `Docker` · `Tailwind CSS`
 
-SaaS baseado em Remote Browser Isolation (RBI) para orquestração de fluxos complexos com anti-fingerprinting.
-- **Performance Bare-Metal:** Kernel Samepage Merging (KSM) com 40% de desduplicação de RAM entre contêineres + *Headless-less Automation* reduzindo footprint de 900 MB para menos de 60 MB.
-- **IA Multimodal & Auto-healing:** GPT-4o Vision para *Spatial Grounding* — o robô infere coordenadas visuais e se auto-recupera de mudanças drásticas no frontend-alvo.
-- **Segurança M2M:** Task runners desacoplados via n8n/Docker com cofre Zero-Trust (AES-128-CBC) e proteção em nível de kernel contra ataques de temporização.
+Estágio voluntário de 60 horas na FATEC Itaquera, modernizando um sistema legado de reserva de laboratórios baseado no ClassroomBookings.
+- **Modernização incremental:** Preservação das regras de negócio existentes com reorganização de telas, login, grade de reservas e configurações administrativas.
+- **Responsividade e UX:** Adaptação para celulares e tablets, com hierarquia de informações e cards de laboratórios.
+- **Documentação:** Docker Compose, documentação pública de execução e organização de issues com Kanban.
 
----
-
-### 🏋️ Define Pilates | SaaS B2B Multi-tenant
-`React` · `Vite` · `Django REST Framework` · `Python` · `MySQL` · `TailwindCSS`
-
-Sistema completo de gestão para estúdios — alunos, financeiro e agendamentos em uma única plataforma.
-- **Tech Lead (8 devs):** Definição de arquitetura, implementação de TDD para regras financeiras e cultura de Code Review.
-- **Qualidade de Código:** CI/CD com análise estática via SonarQube, prevenindo vulnerabilidades antes do merge.
+🔗 [Código](https://github.com/wellingtonspdev/reserva-laboratorios-fatec)
 
 ---
 
-### 🍃 Plataforma Ambiental IBDN | Full Stack Web
-`React` · `Zustand` · `TailwindCSS` · `FastAPI` · `MySQL` · `JWT`
+### 💰 WSP Finance | Projeto Autoral (Em Desenvolvimento)
+`Node.js` · `TypeScript` · `Express` · `Prisma` · `PostgreSQL` · `React`
 
-Solução web para digitalização de processos e gerenciamento de certificações ambientais empresariais.
-- **Arquitetura RESTful completa:** CRUD otimizado, autenticação segura e RBAC (Role-Based Access Control).
-- **SPA de alta performance:** Interface construída em Single Page Application, priorizando navegação fluida e UX.
+Projeto autoral de gestão financeira e automação de rotinas para pequenos negócios, em desenvolvimento incremental.
+- **Backend e frontend:** APIs REST com Express, modelagem com Prisma, integrações com Telegram e testes.
+- **Caso técnico:** Investigação de transação que era persistida corretamente mas não atualizava o dashboard — a correção envolveu logs, Swagger, banco de dados, API e frontend para alinhar o fluxo de sincronização.
+- **Aprendizado:** Uso de checklists de impacto antes de considerar alterações concluídas, considerando todos os pontos de integração.
+
+---
+
+### 🏋️ Define Pilates SaaS | Projeto Acadêmico Interdisciplinar
+`Python` · `Django` · `Django REST Framework` · `React` · `Vite` · `MySQL` · `Tailwind CSS`
+
+Projeto acadêmico para organização de agenda, alunos, financeiro e relatórios de estúdios de Pilates.
+- **Meu papel — Tech Lead Acadêmico:** Organização técnica do squad, priorização de tarefas em Kanban, integração frontend/backend, documentação de APIs, testes e revisão das entregas.
+- **Entrega:** Projeto entregue e apresentado, reunindo módulos interdependentes em prazo curto com 8 devs.
+
+🔗 [Código](https://github.com/PI-3-Semestre/projeto-estudio-pilates) · [Demo](https://pi-3-semestre.github.io/Demo-Define-Pilates/)
+
+---
+
+### 🍃 Plataforma Ambiental IBDN | Projeto Acadêmico em Equipe
+`Python` · `FastAPI` · `React` · `MySQL` · `Zustand` · `Tailwind CSS` · `JWT`
+
+Projeto acadêmico em equipe para digitalização de processos e gerenciamento de certificações ambientais do Instituto Biodinâmico.
+- **Escopo do projeto:** Autenticação, controle de acesso, organização de fluxos institucionais e SPA de alta performance.
+- **Minha contribuição individual:** Desenvolvimento de um carrossel com cerca de 30 parceiros e patrocinadores.
+
+🔗 [Código](https://github.com/DSM2SEM2025/IBDN) · [Demo](https://wellingtonspdev.github.io/IBDN-Demo/)
+
+---
+
+### 🔬 Pesquisa CNPq | Iniciação Científica
+`Modelagem Relacional` · `Greedy Best-First Search` · `Dados Científicos` · `Speckle`
+
+Pesquisa aplicada à caracterização de amostras de solo com metodologia Speckle e busca inteligente, apresentada em simpósios científicos.
+- **Minha contribuição:** Modelagem de banco de dados relacional para dados científicos e implementação de Greedy Best-First Search para classificação de textura de solo.
+- **Eventos:** 27º SICT-FATEC-SP · VII SICT-CPS/CNPq · CONIC-SEMESP 2025
+- **Posicionamento:** Pesquisa aplicada, dados e algoritmos de busca — não Machine Learning avançado.
 
 ---
 
