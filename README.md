@@ -49,9 +49,9 @@ Desenvolvedor de Software Júnior em formação pela **FATEC Itaquera** (Tecnolo
 `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Three.js` · `Framer Motion` · `i18n` · `SEO`
 
 Projeto autoral criado para transformar projetos, experiência, formação e pesquisa em cases técnicos navegáveis, bilíngues e prontos para avaliação por recrutadores.
-- **Visão de produto:** Cases com problema, solução, papel, processo e aprendizado — não apenas listas de skills.
-- **Experiência visual:** Interface com Three.js, animações Framer Motion, carrosséis de screenshots e fundo 3D interativo.
-- **SEO técnico:** Metadados por idioma, JSON-LD, Open Graph, sitemap, páginas pré-renderizadas e deploy automatizado via GitHub Actions no GitHub Pages.
+- **Idealização e arquitetura:** Projetei a estrutura de componentes, o conteúdo profissional, a identidade visual, a experiência de navegação, a descoberta e a publicação.
+- **Desenvolvimento completo:** Implementei interfaces responsivas, animações Framer Motion, elementos 3D com Three.js (carregamento adiado), carrosséis de screenshots e fundo 3D interativo.
+- **SEO técnico e internacionalização:** Suporte a português e inglês, metadados por idioma, JSON-LD, Open Graph, sitemap, páginas pré-renderizadas e deploy automatizado via GitHub Actions no GitHub Pages.
 
 🔗 [Código](https://github.com/wellingtonspdev/Portifolio) · [Portfólio online](https://wellingtonspdev.github.io/Portifolio/)
 
@@ -61,19 +61,19 @@ Projeto autoral criado para transformar projetos, experiência, formação e pes
 `PHP` · `CodeIgniter 3` · `MySQL` · `MariaDB` · `Docker` · `Tailwind CSS`
 
 Estágio voluntário de 60 horas na FATEC Itaquera, modernizando um sistema legado de reserva de laboratórios baseado no ClassroomBookings.
-- **Modernização incremental:** Preservação das regras de negócio existentes com reorganização de telas, login, grade de reservas e configurações administrativas.
-- **Responsividade e UX:** Adaptação para celulares e tablets, com hierarquia de informações e cards de laboratórios.
-- **Documentação:** Docker Compose, documentação pública de execução e organização de issues com Kanban.
+- **Atuação transversal:** Análise técnica do legado, planejamento e implementação das melhorias em todas as telas (login, grade de reservas, cards de laboratórios, detalhes de períodos e configurações administrativas).
+- **Backend e frontend:** Ajustes em PHP/CodeIgniter, organização do banco de dados, integrações, responsividade para celulares e tablets, hierarquia de informações e usabilidade.
+- **Documentação e entrega:** Docker Compose, documentação pública de execução, organização de issues com Kanban, testes funcionais e validação final.
 
 🔗 [Código](https://github.com/wellingtonspdev/reserva-laboratorios-fatec)
 
 ---
 
-### 💰 WSP Finance | Projeto Autoral (Em Desenvolvimento)
-`Node.js` · `TypeScript` · `Express` · `Prisma` · `PostgreSQL` · `React`
+### 💰 WSP Finance | Projeto Autoral · Em Desenvolvimento
+`Node.js` · `TypeScript` · `Express` · `Prisma` · `PostgreSQL` · `React` · `Telegram API`
 
-Projeto autoral de gestão financeira e automação de rotinas para pequenos negócios, em desenvolvimento incremental.
-- **Backend e frontend:** APIs REST com Express, modelagem com Prisma, integrações com Telegram e testes.
+Projeto **autoral e individual** de gestão financeira e automação de rotinas para pequenos negócios, em desenvolvimento incremental. Sou o único desenvolvedor.
+- **Backend e frontend:** APIs REST com Express, modelagem com Prisma, integrações com Telegram, testes e depuração.
 - **Caso técnico:** Investigação de transação que era persistida corretamente mas não atualizava o dashboard — a correção envolveu logs, Swagger, banco de dados, API e frontend para alinhar o fluxo de sincronização.
 - **Aprendizado:** Uso de checklists de impacto antes de considerar alterações concluídas, considerando todos os pontos de integração.
 
@@ -83,7 +83,8 @@ Projeto autoral de gestão financeira e automação de rotinas para pequenos neg
 `Python` · `Django` · `Django REST Framework` · `React` · `Vite` · `MySQL` · `Tailwind CSS`
 
 Projeto acadêmico para organização de agenda, alunos, financeiro e relatórios de estúdios de Pilates.
-- **Meu papel — Tech Lead Acadêmico:** Organização técnica do squad, priorização de tarefas em Kanban, integração frontend/backend, documentação de APIs, testes e revisão das entregas.
+- **Meu papel — Tech Lead Acadêmico + Desenvolvedor Full Stack:** Organização técnica do squad, priorização de tarefas em Kanban, integração frontend/backend, documentação de APIs, testes e revisão das entregas — também atuando como desenvolvedor ativo.
+- **QA e documentação:** Validação funcional, cobertura de testes e documentação técnica do projeto.
 - **Entrega:** Projeto entregue e apresentado, reunindo módulos interdependentes em prazo curto com 8 devs.
 
 🔗 [Código](https://github.com/PI-3-Semestre/projeto-estudio-pilates) · [Demo](https://pi-3-semestre.github.io/Demo-Define-Pilates/)
@@ -94,8 +95,8 @@ Projeto acadêmico para organização de agenda, alunos, financeiro e relatório
 `Python` · `FastAPI` · `React` · `MySQL` · `Zustand` · `Tailwind CSS` · `JWT`
 
 Projeto acadêmico em equipe para digitalização de processos e gerenciamento de certificações ambientais do Instituto Biodinâmico.
-- **Escopo do projeto:** Autenticação, controle de acesso, organização de fluxos institucionais e SPA de alta performance.
-- **Minha contribuição individual:** Desenvolvimento de um carrossel com cerca de 30 parceiros e patrocinadores.
+- **Minha atuação full stack:** Atuação em toda a stack — banco de dados, backend, frontend, integrações, testes e preparação da demo. Não reduzido a um único componente.
+- **QA e validação:** Testes, validação funcional e alinhamento entre as camadas da aplicação.
 
 🔗 [Código](https://github.com/DSM2SEM2025/IBDN) · [Demo](https://wellingtonspdev.github.io/IBDN-Demo/)
 
@@ -104,9 +105,9 @@ Projeto acadêmico em equipe para digitalização de processos e gerenciamento d
 ### 🔬 Pesquisa CNPq | Iniciação Científica
 `Modelagem Relacional` · `Greedy Best-First Search` · `Dados Científicos` · `Speckle`
 
-Pesquisa aplicada à caracterização de amostras de solo com metodologia Speckle e busca inteligente, apresentada em simpósios científicos.
-- **Minha contribuição:** Modelagem de banco de dados relacional para dados científicos e implementação de Greedy Best-First Search para classificação de textura de solo.
-- **Eventos:** 27º SICT-FATEC-SP · VII SICT-CPS/CNPq · CONIC-SEMESP 2025
+Pesquisa aplicada à caracterização de amostras de solo com metodologia Speckle e busca inteligente.
+- **Minha contribuição:** Modelagem de banco de dados relacional para dados científicos, organização de dados experimentais e implementação de Greedy Best-First Search para classificação de textura de solo.
+- **Eventos apresentados:** 27º SICT-FATEC-SP · VII SICT-CPS/CNPq · CONIC-SEMESP 2025
 - **Posicionamento:** Pesquisa aplicada, dados e algoritmos de busca — não Machine Learning avançado.
 
 ---
