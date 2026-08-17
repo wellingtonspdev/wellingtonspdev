@@ -84,7 +84,7 @@ Projeto **autoral e individual** de gestão financeira e automação de rotinas 
 
 Projeto acadêmico para organização de agenda, alunos, financeiro e relatórios de estúdios de Pilates.
 - **Meu papel — Tech Lead Acadêmico + Desenvolvedor Full Stack:** Organização técnica do squad, priorização de tarefas em Kanban, integração frontend/backend, documentação de APIs, testes e revisão das entregas — também atuando como desenvolvedor ativo.
-- **QA e documentação:** Validação funcional, cobertura de testes e documentação técnica do projeto.
+- **QA e documentação:** Validação funcional, análise e acompanhamento dos testes, revisão das entregas e documentação técnica do projeto.
 - **Entrega:** Projeto entregue e apresentado, reunindo módulos interdependentes em prazo curto com 8 devs.
 
 🔗 [Código](https://github.com/PI-3-Semestre/projeto-estudio-pilates) · [Demo](https://pi-3-semestre.github.io/Demo-Define-Pilates/)
@@ -95,8 +95,8 @@ Projeto acadêmico para organização de agenda, alunos, financeiro e relatório
 `Python` · `FastAPI` · `React` · `MySQL` · `Zustand` · `Tailwind CSS` · `JWT`
 
 Projeto acadêmico em equipe para digitalização de processos e gerenciamento de certificações ambientais do Instituto Biodinâmico.
-- **Minha atuação full stack:** Atuação em toda a stack — banco de dados, backend, frontend, integrações, testes e preparação da demo. Não reduzido a um único componente.
-- **QA e validação:** Testes, validação funcional e alinhamento entre as camadas da aplicação.
+- **Minha atuação full stack:** Participei transversalmente de todas as fases do desenvolvimento, atuando em banco de dados, backend, frontend, integrações, testes, validação, correções finais e preparação da demo pública.
+- **QA e entrega:** Atuação na análise dos testes, validação funcional, identificação de problemas, acompanhamento das correções e finalização do projeto.
 
 🔗 [Código](https://github.com/DSM2SEM2025/IBDN) · [Demo](https://wellingtonspdev.github.io/IBDN-Demo/)
 
@@ -106,8 +106,9 @@ Projeto acadêmico em equipe para digitalização de processos e gerenciamento d
 `Modelagem Relacional` · `Greedy Best-First Search` · `Dados Científicos` · `Speckle`
 
 Pesquisa aplicada à caracterização de amostras de solo com metodologia Speckle e busca inteligente.
-- **Minha contribuição:** Modelagem de banco de dados relacional para dados científicos, organização de dados experimentais e implementação de Greedy Best-First Search para classificação de textura de solo.
-- **Eventos apresentados:** 27º SICT-FATEC-SP · VII SICT-CPS/CNPq · CONIC-SEMESP 2025
+- **Minha contribuição:** Participação nos experimentos e na coleta e organização dos dados experimentais, modelagem de banco de dados relacional e implementação de Greedy Best-First Search para apoio à classificação de textura de solo.
+- **Eventos científicos relacionados à pesquisa:** 27º SICT-FATEC-SP · VII SICT-CPS/CNPq · CONIC-SEMESP 2025
+- **Comunicação científica:** Apresentação pessoal dos resultados da pesquisa em dois simpósios.
 - **Posicionamento:** Pesquisa aplicada, dados e algoritmos de busca — não Machine Learning avançado.
 
 ---
